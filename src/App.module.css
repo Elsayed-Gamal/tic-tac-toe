@@ -1,0 +1,13 @@
+.heading {
+  padding: 20px;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+:global(.board) {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+}

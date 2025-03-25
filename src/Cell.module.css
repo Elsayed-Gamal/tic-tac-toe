@@ -1,0 +1,21 @@
+.cell {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cell:hover {
+  background-color: #ddd;
+}
+
+.cell:global(.player-x) {
+  color: green;
+}
+
+.cell:global(.player-o) {
+  color: blue;
+}
